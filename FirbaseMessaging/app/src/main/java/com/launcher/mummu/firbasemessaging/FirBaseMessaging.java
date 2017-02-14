@@ -19,12 +19,14 @@ public class FirBaseMessaging extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
 //        Log.d("MESSAGE_NEW", "onMessageReceived");
-        sendNotification(remoteMessage.getFrom());
+        RemoteMessage.Notification notification = remoteMessage.getNotification();
+        sendNotification(notification.getBody());
         super.onMessageReceived(remoteMessage);
     }
 
     private void sendNotification(String messageBody) {
         Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("URL", messageBody);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
                 PendingIntent.FLAG_ONE_SHOT);
