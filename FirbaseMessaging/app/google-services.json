@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "345985463874",
+    "firebase_url": "https://firbase-messaging.firebaseio.com",
+    "project_id": "firbase-messaging",
+    "storage_bucket": "firbase-messaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345985463874:android:bdc9cd92bc16c36c",
+        "android_client_info": {
+          "package_name": "com.launcher.mummu.firbasemessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345985463874-0ihu06p1g908io1sro3fslq5f35up7vm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.launcher.mummu.firbasemessaging",
+            "certificate_hash": "6DF4E2A2FB857DEA304F40794695655A55497D19"
+          }
+        },
+        {
+          "client_id": "345985463874-o7uco8h4cql3h5t6afrl3c6skkggoovu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCyHG4bNOV2j3IcEDt5cyJJxzoWAgTbNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345985463874-o7uco8h4cql3h5t6afrl3c6skkggoovu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
